@@ -246,7 +246,7 @@ function executeAllTestCases() {
     deleteOutputFiles();
 
     const filePath = path.join(__dirname, '../index.html');
-    const jsPath = path.join(__dirname, '../script.js');
+    const jsPath = path.join(__dirname, '../../dist/script.js');
     const jsContent = fs.readFileSync(jsPath, 'utf8');
     const cssFilePath = path.join(__dirname, '../style.css');
     const cssContent = fs.readFileSync(cssFilePath, 'utf8');
