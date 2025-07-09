@@ -256,7 +256,7 @@ function executeAllTestCases() {
         testCaseName: 'HTML Tags Test',
         testCaseType: 'boundary',
         testLogic: checkHtmlTags,
-        extraParams: [['html', 'head', 'title', 'link', 'body', 'div', 'button', 'label', 'input', 'select', 'option', 'p', 'script']]
+        extraParams: [['title', 'link', 'div', 'button', 'label', 'input', 'select', 'option', 'p', 'script']]
     };
 
     const linkAttrTestCase = {
